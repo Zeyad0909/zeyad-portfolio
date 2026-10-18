@@ -1,10 +1,8 @@
-/* ---------- Base reset (standalone project) ---------- */
 :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
 body { margin: 0; }
 img { max-width: 100%; }
 [hidden] { display: none !important; }
 
-/* Layout concept: one calm column of reading, with a mathematician's habit of showing structure — sets, definitions, and a code-shaped profile in the hero. Boldness lives in the hero headline and the set-notation roadmap; everything else stays quiet. */
 :root {
   --bg: #0a0f1e;
   --bg-2: #0e1530;

@@ -3,10 +3,6 @@
   var root = document.documentElement;
   root.classList.add("js");
 
-  /* ------------------------------------------------------------------
-     PROJECT LINKS: add real URLs here when they exist. Leave a value as
-     an empty string and the card shows "Repository coming soon".
-     ------------------------------------------------------------------ */
   var PROJECT_LINKS = {
     blog:     { repo: "", demo: "" },
     iti:      { repo: "", demo: "" },
@@ -82,7 +78,7 @@
     document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("in"); });
   }
 
-  /* Copy email (clipboard can be refused, so fall back to selecting the text) */
+
   var copyBtn = document.getElementById("copy-email");
   var emailText = document.getElementById("email-text");
   var label = document.getElementById("copy-label");
